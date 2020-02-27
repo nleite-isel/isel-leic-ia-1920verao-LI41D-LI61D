@@ -1,7 +1,7 @@
 Assuma que são dados factos na forma parent(name1, name2) (name1 é o pai/mãe de name2).
 
-Defina o predicado brother(X, Y) que sucede se X and Y são irmãos.
-Defina o predicado cousin(X, Y) que sucede se X and Y são primos.
+Defina o predicado brother(X, Y) que sucede se X e Y são irmãos.
+Defina o predicado cousin(X, Y) que sucede se X e Y são primos.
 Defina o predicado grandson(X, Y) que sucede se X é neto de Y.
 Defina o predicado descendent(X, Y) que sucede se X é um descendente de Y.
 
