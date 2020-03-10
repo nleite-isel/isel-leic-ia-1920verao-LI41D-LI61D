@@ -1,0 +1,46 @@
+Realize os exercícios usando listas Prolog:
+
+% 1. Predicado conc(L1, L2, L):
+% Sucede se L for a lista que resulta da concatenação dos elementos 
+% da lista L1 com os elementos da lista L2.
+%
+% ?- conc([1,2,3], [a, b], Z).
+% Z = [1, 2, 3, a, b]
+
+% 2. Predicado membro(E, L): Sucede se o elemento E pertence à lista L.
+
+% 3. Nova versão para o predicado membro: membroV1(E, L), mas feito à custa 
+% do predicado conc/3.
+
+
+% 4. Predicado insInicio(E, L, L1):
+% Sucede se L1 for a lista que resulta da inserção do elemento E 
+antes de todos os elementos da lista L.
+
+% 5. Predicado inserir(E, L, L1):
+% Sucede se L1 for a lista que resulta da inserção do elemento E 
+% numa posição qualquer da lista L
+
+ 
+% 6. Nova versão para o predicado membro: membroV2(E, L), mas feito à
+% custa do inserir/3.
+
+% 7. Predicado eliminar(E, L, L1):
+% Sucede se L1 for a lista que resulta da eliminação do elemento E 
+% em qualquer posição da lista L.
+
+% 8. Nova versão para o predicado eliminar, feito à custa do inserir/3.
+
+% 9. Nova versão para o predicado inserir/3 feito à custa de eliminar/3
+
+% 10. Predicado sublista(S, L):
+% Sucede se S for uma sublista de L.
+
+% 11. Predicado permuta(L, Lp):
+% Sucede se Lp for uma permutação de L.
+% 11.1 - Implementação 1: feito à custa de inserir/3
+% 11.2 - Implementação 2: feito à custa de eliminar/3
+
+%?- findall(P, permuta([1,2,3], P), L).
+% L = [[1, 2, 3], [2, 1, 3], [2, 3, 1], [1, 3, 2], [3, 1, 2], [3, 2, 1]].
+
