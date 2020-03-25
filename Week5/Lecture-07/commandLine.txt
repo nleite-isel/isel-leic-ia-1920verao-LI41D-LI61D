@@ -1,0 +1,4 @@
+
+Para invocar o SWI-Prolog:
+
+swipl TPC04_completed.pl
