@@ -29,6 +29,8 @@ function test_HC_Example()
 
     Results = [[Res(:).tmax]; [Res(:).NumEvaluations]; [Res(:).Cost]]
     %fprintf('%d\t\t%d\t\t%d\n', Results);
+    
+    
 end
 
 %////////////////////////////////////////////////////////////
@@ -54,6 +56,7 @@ function s = getInitialSolution(data)
 end
 
 % Generate neighbors
+% The global maximum of this function is 01010 (x = 10, f(x) = 4100).
 function Neighs = getNeighbors(S, data)
     % N variables => N neighbors, single bit change
     N = data.N;
