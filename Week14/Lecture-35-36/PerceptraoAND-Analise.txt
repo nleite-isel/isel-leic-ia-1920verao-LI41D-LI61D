@@ -1,0 +1,59 @@
+
+x1 + x2 -3/2 = 0
+
+x1 = 1
+x2 = 1
+
+1 + 1 -3/2 > 0 ? --> classifica como 1, senao classifica como 0
+2 - 3/2 > 0 ? Sim, --> classifica como 1
+--
+
+x1 = 0
+x2 = 1
+
+0 + 1 -3/2 > 0 ? --> classifica como 1, senao classifica como 0
+1 - 3/2 = -1/2 <= 0 ? --> classifica como 0
+
+
+Equacao da reta que PASSA pela origem:
+
+w1*x1 + w2*x2 = 0
+
+CASO GERAL - Equacao da reta que passa em qualquer ponto
+
+w1*x1 + w2*x2 = theta
+
+
+Perceptrao aprende os pesos wi.
+Para o AND com duas variaveis temos:
+
+Equacao da reta
+
+w1*x1 + w2*x2 + w3*x_dummy = 0
+
+em que w3 = -theta (esta entrada adicional designa-se "bias")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
